@@ -1,9 +1,9 @@
 import express from 'express'
 
-import healthRouter from './health'
+import systemRouter from './system'
 
 const router = express.Router()
 
-router.use(healthRouter)
+router.use(systemRouter)
 
 export default router
