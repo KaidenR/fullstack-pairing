@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "scripthost", "es2018"],
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "target": "es2018",
+    "sourceMap": true,
+    "inlineSources": true,
+    "skipLibCheck": true,
+    "baseUrl": "./"
+  },
+  "include": [
+    "./src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "ts-node"
+  ]
+}
