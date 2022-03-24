@@ -2,7 +2,7 @@ import express from 'express'
 
 import apiRouter from './routers'
 
-const SERVER_PORT = 3000
+const SERVER_PORT = 3001
 
 const app = express()
 
